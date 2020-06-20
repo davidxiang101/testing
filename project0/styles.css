@@ -127,53 +127,51 @@
 }
 
 .enter-from-bottom{
-  width: 100px;
-  height: 100px;
-  background: black;
+  width: 100vw;
+  height: 100vw;
+  background: white;
   position: relative;
-  animation: enterFromBottom 5s;
-  -webkit-animation: enterFromBottom 5s;
-  -moz-animation: enterFromBottom 5s;
-  -o-animation: enterFromBottom 5s;
-  -ms-animation: enterFromBottom 5s;
+  animation: enterFromBottom 1.5s;
+  -webkit-animation: enterFromBottom 1.5s;
+  -moz-animation: enterFromBottom 1.5s;
+  -o-animation: enterFromBottom 1.5s;
+  -ms-animation: enterFromBottom 1.5s;
 }
 
 @keyframes enterFromBottom {
-  0%   {left: 0px; top: 0px;}
-  25%  {left: 200px; top: 0px;}
-  50%  {left: 200px; top: 200px;}
-  75%  {left: 0px; top: 200px;}
-  100% {left: 0px; top: 0px;}
+  0%   {top: 100vw;}
+  100% {top: 0px;}
 }
 
 @-moz-keyframes enterFromBottom {
-  0%   {left: 0px; top: 0px;}
-  25%  {left: 200px; top: 0px;}
-  50%  {left: 200px; top: 200px;}
-  75%  {left: 0px; top: 200px;}
-  100% {left: 0px; top: 0px;}
+  0%   {top: 100vw;}
+  100% {top: 0px;}
 }
 
 @-webkit-keyframes enterFromBottom {
-  0%   {left: 0px; top: 0px;}
-  25%  {left: 200px; top: 0px;}
-  50%  {left: 200px; top: 200px;}
-  75%  {left: 0px; top: 200px;}
-  100% {left: 0px; top: 0px;}
+  0%   {top: 100vw;}
+  100% {top: 0px;}
 }
 
 @-o-keyframes enterFromBottom {
-  0%   {left: 0px; top: 0px;}
-  25%  {left: 200px; top: 0px;}
-  50%  {left: 200px; top: 200px;}
-  75%  {left: 0px; top: 200px;}
-  100% {left: 0px; top: 0px;}
+  0%   {top: 100vw;}
+  100% {top: 0px;}
 }
 
 @-ms-keyframes enterFromBottom {
-  0%   {left: 0px; top: 0px;}
-  25%  {left: 200px; top: 0px;}
-  50%  {left: 200px; top: 200px;}
-  75%  {left: 0px; top: 200px;}
-  100% {left: 0px; top: 0px;}
+  0%   {top: 100vw;}
+  100% {top: 0px;}
+}
+
+.backdrop{
+  background:black;
+  height:100vw;
+  width:100vw;
+  position:absolute;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
