@@ -127,46 +127,51 @@
 }
 
 .enter-from-bottom{
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   background: white;
-  position: relative;
-  animation: enterFromBottom 1.5s;
-  -webkit-animation: enterFromBottom 1.5s;
-  -moz-animation: enterFromBottom 1.5s;
-  -o-animation: enterFromBottom 1.5s;
-  -ms-animation: enterFromBottom 1.5s;
+  position: absolute;
+  animation: enterFromBottom 2s;
+  -webkit-animation: enterFromBottom 2s;
+  -moz-animation: enterFromBottom 2s;
+  -o-animation: enterFromBottom 2s;
+  -ms-animation: enterFromBottom 2s;
 }
 
 @keyframes enterFromBottom {
   0%   {top: 100vw;}
+  20%  {top: 80vw}
   100% {top: 0px;}
 }
 
 @-moz-keyframes enterFromBottom {
   0%   {top: 100vw;}
+  20%  {top: 80vw}
   100% {top: 0px;}
 }
 
 @-webkit-keyframes enterFromBottom {
   0%   {top: 100vw;}
+  20%  {top: 80vw}
   100% {top: 0px;}
 }
 
 @-o-keyframes enterFromBottom {
   0%   {top: 100vw;}
+  20%  {top: 80vw}
   100% {top: 0px;}
 }
 
 @-ms-keyframes enterFromBottom {
   0%   {top: 100vw;}
+  20%  {top: 80vw}
   100% {top: 0px;}
 }
 
 .backdrop{
   background:black;
-  height:100vw;
-  width:100vw;
+  height:100%;
+  width:100%;
   position:absolute;
 }
 
@@ -177,11 +182,7 @@ img {
 }
 
 .rotating-text{
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
+  transform: rotate(90deg)
 }
 
 .text{
